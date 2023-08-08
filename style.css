@@ -1,54 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  width: 100%;
 }
 
 header {
-    background-color: #272D33;
-    color: white;
-    text-align:center;
-    white-space: nowrap;
-    padding: 15px;
+  background-color: #272d33;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  padding: 15px;
 }
-
-
-nav{
-    display: flex;
-    justify-content: center;
+nav {
+  display: flex;
+  justify-content: center;
 }
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    
-
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
-img{
-    width: 100%;
-    margin: 10PX;
-    
+img {
+  width: 100%;
+  margin: 10px;
 }
 
-
-.shirts {
-    margin: 20px;
-    padding-bottom: 60px;
-    padding-right: 20px;
-    border: solid 1px grey;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+#first_image {
+  display: flex;
+  justify-content: flex-end;
+  width: 120px;
+}
+.nav-margin {
+  margin-top: -100px;
 }
 
-.shirts_container{
-    display: flex;
+#signUp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("img/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+#signUp h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
 
+#signUp p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
 
- 
+#signUp p span {
+  color: #ffbd27;
+}
+
+#signUp .form {
+  display: flex;
+  width: 40%;
+}
+
+#signUp input {
+  height: 3.125em;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 50%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#signUp button {
+  font-weight: 600;
+  height: 3.27em;
+  padding: 0 1.25em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  outline: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+footer .colum {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-bottom: 15px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 0px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+}
+
+footer .follow {
+  margin-top: 0px;
+}
+
+footer .follow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 13px;
+  margin: 10px;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
